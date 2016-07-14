@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CIKLUM</title>
+    <link rel="import" href="/test.html">
+  </head>
+  <body>
+     
+    <script>
+      var link = document.querySelector('link[rel=import]');
+      var content = link.import.querySelector('#intro-dm');
+      document.body.appendChild(content.cloneNode(true));
+    </script>
+ 
+  </body>
+</html>
